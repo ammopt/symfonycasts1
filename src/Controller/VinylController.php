@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\String\UnicodeString;
+// use Symfony\Component\String\UnicodeString;
 
 class VynilController
 {
@@ -18,7 +18,7 @@ class VynilController
   public function browse(string $slug = null): Response
   {
       if($slug){
-        $title = 'tet':
+        $title = 'tet';
         //$title = 'Genre: '.u(str_replace('-', ' ', $slug))->title(true);
       }else{
         $title = 'All Genres';
