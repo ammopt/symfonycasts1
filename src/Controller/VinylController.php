@@ -18,7 +18,8 @@ class VynilController
   public function browse(string $slug = null): Response
   {
       if($slug){
-        $title = 'Genre: '.u(str_replace('-', ' ', $slug))->title(true);
+        $title = 'tet':
+        //$title = 'Genre: '.u(str_replace('-', ' ', $slug))->title(true);
       }else{
         $title = 'All Genres';
       }
